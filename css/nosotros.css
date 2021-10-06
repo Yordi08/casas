@@ -1,0 +1,161 @@
+#nosotros {
+    display: table;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    z-index: 1;
+}
+
+#nosotros h3 {
+    text-decoration-line: underline;
+    font-size: 30px;
+    -moz-text-decoration-line: underline;
+    color: rgb(97, 97, 170);
+}
+
+#loc {
+    background-color: rgba(76, 120, 179, 0.671);
+    text-align: center;
+    color: white;
+}
+
+#prod {
+    text-align: center;
+    color: rgb(88, 88, 88);
+}
+
+.descargas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    z-index: 1;
+}
+
+#tipoDes {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    font-size: 70px;
+    color: rgb(158, 158, 158);
+    border: 1px solid rgb(110, 110, 110);
+}
+
+#tipoDes h1 {
+    color: rgb(87, 87, 87);
+    font-size: 20px;
+    width: 200%;
+    margin-top: 26px;
+    margin-left: -50px;
+    font-size: 15px;
+}
+
+#tipoDes a {
+    color: rgb(184, 184, 184);
+}
+
+#tipoDes a:hover {
+    color: rgba(49, 127, 190, 0.541);
+}
+
+#tipoDes:hover {
+    border: 1px solid rgba(49, 127, 190, 0.541);
+}
+
+.publicacion h1 i {
+    font-size: 35px;
+}
+
+.popup {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    cursor: pointer;
+}
+
+
+/* pop-up actual */
+
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+
+/* Muestra del Pop-up*/
+
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+
+/* Cambio para mostrar/ocultar el contenedor del pop-up */
+
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+
+/* Animación del pop-up */
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/*aminacion*/
